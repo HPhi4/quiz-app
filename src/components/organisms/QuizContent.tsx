@@ -86,7 +86,7 @@ const QuizContent = () => {
       onTryAgain={tryQuizAgain}
     />
   ) : (
-    <div className="animation h-100vh">
+    <div className="animation">
       <div className="flex justify-center gap-20 pt-50 pb-70 mw-800 m-auto quiz__button-list">
         <QuizButtonList
           questions={questions}

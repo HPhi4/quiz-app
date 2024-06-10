@@ -139,7 +139,8 @@ button {
 }
 .quiz-app {
   background: var(--bg-color);
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 3rem;
 }
 .mw-800 {
   max-width: 800px;
@@ -273,7 +274,8 @@ button {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -284,7 +286,6 @@ button {
   width: 50rem;
   max-width: 100%;
   text-align: center;
-  border: 2px solid #ccc;
 }
 
 .modal-title {
